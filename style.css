@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* this is sidebar part */
+.sidebar {
+    /* background-color: #211C6A; */
+    background-color: #8CB9BD;
+    /* width: 10vw; */
+
+    width: 20vw;
+    font-family: 'Poppins';
+    height: 100vh;
+}
+
+
+.sidebar nav {
+    padding: 60px;    
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 25px 0;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* this is main section */
+
+.main {
+    background-color: #F3CCF3;
+    width: 80vw;
+    font-family: 'Poppins';
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    margin-left: 0px;
+    
+}
+
+.infocontainer {
+
+    /* background-color:#FF9BD2; */
+    background-color:#E1F0DA;
+    height: 58vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img {
+    height: 58vh;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Poppins';
+}
+
+.hello {
+    font-size: 50px;
+
+
+}
+
+.name {
+    font-size: 35px;
+    font-weight: bold;
+    font-family:'Poppins';
+
+}
+
+.about {
+    font-size: 25px;
+
+}
+
+.moreabout {
+    font-size: 22px;
+    font-family: 'Poppins';
+    margin-top: 23px;
+}
+
+/* .buttons {
+    margin-top: 44px;
+} */
+
+/* this is button part */
+.buttons button {
+    /* padding: 9px 14px; */
+    border-radius: 15px;
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+    padding: 10px;
+    
+
+
+}
+
+.buttons button:hover {
+    color: darkblue;
+    background-color: white;
+
+}
+.contactform h1 {
+    font-family:'Poppins';
+    /* text-align: center; */
+    padding: 12px 0;
+
+}
+.contactform {
+    font-family:'Poppins';
+    padding: 0 34px;
+    padding-top: 144px;
+}
+
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 5px; */
+}
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+} 
+
+#emailHelp {
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 15px;
+    margin: 3px 0;
+}
+/* blog part */
+.blogitem {
+    margin: 20px;
+    font-family:'Poppins';
+    
+}
+h1 {
+    font-family:'Poppins';
+    margin: 23px;
+}
+p{
+    font-family:'Poppins';
+    font-size: 18PX;
+}
+.intro h2{
+
+    font-family:'Poppins';
+    margin: 12px;
+}
+.intro p{
+    font-family:'Poppins' ;
+    margin: 12px;
+    font-size: 18PX;
+
+}
+.skillcontainer{
+    padding: 12px;
+    margin: 20px;
+    
+}
+.skillitems{
+    display: flex;
+    align-items: center;
+    font-family:'Poppins';
+    font-weight: 900;
+    padding: 15px;
+    margin: 15px;
+
+}
+.skill{
+    width: 256px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundered{
+    width: 265px;
+    background-color: black;
+}
+.fifty{
+    width: 200px;
+    background-color: black;
+
+}
+.t5{
+    width: 175px;
+    background-color: black;
+}
+.btn {
+    /* padding: 9px 14px; */
+    border-radius: 20px;
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+    height: 35PX;
+
+
+
+}
+
+.btn:hover {
+    color: darkblue;
+    background-color: white;
+
+}
+/* for responsive */
+
+
